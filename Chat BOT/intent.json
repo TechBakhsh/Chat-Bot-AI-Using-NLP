@@ -1,0 +1,25 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Greetings", "Good morning"],
+        "responses": ["Hello! How can I help you?", "Hi there! What can I do for you today?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "See you later", "Bye", "Farewell"],
+        "responses": ["Goodbye! Have a great day.", "See you later!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Appreciate it"],
+        "responses": ["You're welcome!", "No problem, happy to help!"]
+      },
+      {
+        "tag": "unknown",
+        "patterns": ["", "I don't know", "Not sure"],
+        "responses": ["I'm sorry, I didn't understand that.", "Could you please rephrase?"]
+      }
+    ]
+  }
+  
